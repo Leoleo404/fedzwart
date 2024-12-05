@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sponsor.css">
+  <link rel="stylesheet" href="rotate.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div id="hamburger" class="hamburger">☰</div>
+      <ul id="nav-links" class="nav-links">
+        <li><button id="close-btn" class="close-btn">✖</button></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="exhibition.html">Exhibition</a></li>
+        <li><a href="tryout.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main role="main">
+    <section class="banner" aria-labelledby="banner-title">
+      <div class="content">
+        <h1 id="banner-title" class="left">Light & Shadow</h1>
+        <div class="right">
+          <h2>Museum</h2>
+          <p>London</p>
+          <p>1234AB<br>Upsidedown soda</p>
+        </div>
+        <div class="image" aria-hidden="true">
+        </div>
+      </div>
+    </section>
+
+    <div class="slider" style="--width: 100px; --height: 50px; --quantity: 9;">
+      <div class="list">
+        <div class="item" style="--position: 1"><img src="images/slider1_1.png" alt="Slider Image 1"></div>
+        <div class="item" style="--position: 2"><img src="images/slider1_2.png" alt="Slider Image 2"></div>
+        <div class="item" style="--position: 3"><img src="images/slider1_3.png" alt="Slider Image 3"></div>
+        <div class="item" style="--position: 4"><img src="images/slider1_4.png" alt="Slider Image 4"></div>
+        <div class="item" style="--position: 5"><img src="images/slider1_5.png" alt="Slider Image 5"></div>
+        <div class="item" style="--position: 6"><img src="images/slider1_6.png" alt="Slider Image 6"></div>
+        <div class="item" style="--position: 7"><img src="images/slider1_7.png" alt="Slider Image 7"></div>
+        <div class="item" style="--position: 8"><img src="images/slider1_8.png" alt="Slider Image 8"></div>
+        <div class="item" style="--position: 9"><img src="images/slider1_9.png" alt="Slider Image 9"></div>
+      </div>
+    </div>
+
+    <div class="slider" reverse="true" style="--width: 200px; --height: 200px; --quantity: 9;">
+      <div class="list">
+        <div class="item" style="--position: 1"><img src="images/slider1_1.png" alt="Slider Image 1"></div>
+        <div class="item" style="--position: 2"><img src="images/slider1_2.png" alt="Slider Image 2"></div>
+        <div class="item" style="--position: 3"><img src="images/slider1_3.png" alt="Slider Image 3"></div>
+        <div class="item" style="--position: 4"><img src="images/slider1_4.png" alt="Slider Image 4"></div>
+        <div class="item" style="--position: 5"><img src="images/slider1_5.png" alt="Slider Image 5"></div>
+        <div class="item" style="--position: 6"><img src="images/slider1_6.png" alt="Slider Image 6"></div>
+        <div class="item" style="--position: 7"><img src="images/slider1_7.png" alt="Slider Image 7"></div>
+        <div class="item" style="--position: 8"><img src="images/slider1_8.png" alt="Slider Image 8"></div>
+        <div class="item" style="--position: 9"><img src="images/slider1_9.png" alt="Slider Image 9"></div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <div class="product">
+        <div class="soda" style="--url: url(images/soda-art.png)" aria-label="Soda Art 1"></div>
+        <div class="soda" style="--url: url(images/soda-art-2.png)" aria-label="Soda Art 2"></div>
+      </div>
+      <div class="rock">
+        <img src="images/rock1.png" alt="Rock Image 1">
+        <img src="images/rock2.png" alt="Rock Image 2">
+        <img src="images/rock3.png" alt="Rock Image 3">
+      </div>
+    </div>
+
+    <section class="grid grid-1">
+      <figure>
+        <img src="images/sich.png" alt="Sich Image">
+      </figure>
+      <figure>
+        <img src="images/3.png" alt="Image 3" class="autoRotate">
+      </figure>
+      <h2 class="autoShow">Introduce</h2>
+    </section>
+
+    <section class="grid grid-2">
+      <div class="autoShow">
+        <figure>
+          <img src="images/6.png" alt="Image 6">
+        </figure>
+        <p>
+          When an unknown printer took a galley of type and scrambled it to make a type specimen b <br>
+          only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop like.
+        </p>
+      </div>
+      <div class="autoShow">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen b <br>
+        ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+        versions of Lorem Ipsum.
+      </div>
+      <div class="autoShow">
+        <figure>
+          <img src="images/2.png" alt="Image 2">
+        </figure>
+        <p>
+          When an unknown printer took a galley of type and scrambled it to make a type specimen b <br>
+          only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </p>
+      </div>
+      <div class="autoShow">
+        <figure>
+          <img src="images/candy.png" alt=" Candy Image">
+        </figure>
+      </div>
+    </section>
+
+    <section class="grid grid-3">
+      <a href="photography.html" class="autoBLur">Photography</a>
+      <a href="exhibition.html" class="autoBLur">Exhibition</a>
+      <a href="try.html" class="autoBLur">About &#8599;</a>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="grid grid-5 content">
+      <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero labore numquam explicabo itaque qui,
+        assumenda temporibus aspernatur ex quae corrupti, ipsa quod esse hic debitis quidem obcaecati aperiam!
+        Incidunt blanditiis facilis a et provident vel aspernatur deleniti sint debitis numquam ducimus
+        recusandae assumenda eligendi explicabo id unde quasi dicta ut cumque, tempore accusamus ipsa similique
+        repellat. Deserunt delectus sint debitis ad sequi laboriosam inventore consequatur nemo neque cum est nostrum
+        eveniet aliquid unde distinctio, omnis sed vitae amet nobis atque.</div>
+      <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero labore numquam explicabo itaque qui,
+        assumenda temporibus aspernatur ex quae corrupti, ipsa quod esse hic debitis quidem obcaecati aperiam!
+        Incidunt blanditiis facilis a et provident vel aspernatur deleniti sint debitis numquam ducimus
+        recusandae assumenda eligendi explicabo id unde quasi dicta ut cumque, tempore accusamus ipsa similique
+        repellat. Deserunt delectus sint debitis ad sequi laboriosam inventore consequatur nemo neque cum est
+        nostrum eveniet aliquid unde distinctio, omnis sed vitae amet nobis atque.</div>
+      <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero labore numquam explicabo itaque qui,
+        assumenda temporibus aspernatur ex quae corrupti, ipsa quod esse hic debitis quidem obcaecati aperiam!
+        Incidunt blanditiis facilis a et provident vel aspernatur deleniti sint debitis numquam ducimus
+        recusandae assumenda eligendi explicabo id unde quasi dicta ut cumque, tempore accusamus ipsa similique
+        repellat. Deserunt delectus sint debitis ad sequi laboriosam inventore consequatur nemo neque cum est
+        nostrum eveniet aliquid unde distinctio, omnis sed vitae amet nobis atque.</div>
+      <div>
+        <figure>
+          <img src="images/8.png" alt="Image 8">
+        </figure>
+      </div>
+    </div>
+  </footer>
+  <script>
+    window.addEventListener('load', () => {
+      document.body.classList.add('loaded');
+    });
+  </script>
+  <script>
+    document.getElementById('hamburger').addEventListener('click', function () {
+      var navLinks = document.getElementById('nav-links');
+      navLinks.classList.toggle('active'); // Toggle the 'active' class to slide in/out
+    });
+
+    // Close button functionality
+    document.getElementById('close-btn').addEventListener('click', function () {
+      var navLinks = document.getElementById('nav-links');
+      navLinks.classList.remove('active'); // Remove the 'active' class to slide out
+    });
+  </script>
+</body>
+
+</html>
