@@ -1,14 +1,5 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
 Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
 
 ## Jij
 
@@ -16,221 +7,39 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+ Fleur Schmidt
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
-
+Zwart
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Animatie technieken in CSS
  
 </details>
 
+<details open> # **Reflectie Frontend Development Opdracht**
+## **Inleiding**
+Voor mijn frontend development opdracht heb ik ervoor gekozen om een unieke benadering te volgen in plaats van de standaardopdracht van mijn medestudenten. Ik heb een website ontwikkeld waarin ik uitgebreid gebruik heb gemaakt van nieuwe CSS-animatietechnieken. Dit project bood me de kans om mijn vaardigheden uit te breiden en mezelf uit te dagen met technieken die ik nog nooit eerder had toegepast.
 
+## **Gebruik van CSS-animaties**
+1. CSS-animaties zijn een krachtige manier om dynamische en aantrekkelijke elementen aan je website toe te voegen zonder afhankelijk te zijn van JavaScript of externe libraries. In mijn project heb ik de volgende animatietechnieken toegepast:
 
+2. Scroll-driven animaties: Elementen reageren op de scrollpositie van de gebruiker, wat zorgt voor een interactieve en dynamische ervaring.
 
+3. 3D image carousel: Door gebruik te maken van geavanceerde CSS-transformaties en perspectieven heb ik een 3D-effect gecreëerd voor een carrousel. Dit was technisch uitdagend, maar het resultaat was zeer bevredigend.
 
-## Je website
+4. Loading screen geïnspireerd door Lusion.co: Ik heb inspiratie gehaald van Lusion.co om een unieke laadanimatie te maken. Dit hielp me om meer inzicht te krijgen in het opzetten en optimaliseren van complexe animaties.
 
-<details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+## **Wat ik heb geleerd**
+Dit project was een eye-opener wat betreft de mogelijkheden van CSS-animaties. Ik heb geleerd dat het zelf maken van animaties meer controle en begrip oplevert dan het gebruik van kant-en-klare oplossingen. Daarnaast ontdekte ik het belang van het optimaliseren van animaties, zodat ze ook goed functioneren op minder krachtige apparaten. CSS-animaties kunnen niet alleen de uitstraling van een site verbeteren, maar ook bijdragen aan een betere gebruikerservaring.
 
-  ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+## **Uitdagingen**
+De grootste uitdaging was het perfectioneren van complexe keyframes en het vinden van de juiste timing-functies. Het kostte soms veel tijd om het gewenste effect te bereiken. Debuggen was ook een interessante leerschool; een kleine fout in de code kan grote visuele problemen veroorzaken. Deze uitdagingen maakten het eindresultaat des te bevredigender.
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+## **Wat minder goed ging**
+Een aspect waarop mijn website nog tekortschiet, is toegankelijkheid, vooral voor gebruikers die afhankelijk zijn van screenreaders. Sommige interactieve elementen en animaties zijn niet goed geoptimaliseerd voor screenreaders, wat de bruikbaarheid voor mensen met een visuele beperking kan verminderen. Dit is iets wat ik tijdens de ontwikkeling over het hoofd heb gezien, maar wat ik in toekomstige projecten zeker beter wil aanpakken. Het toegankelijk maken van animaties en interacties is net zo belangrijk als het visuele aspect, en ik wil meer leren over technieken zoals ARIA-labels en semantische HTML om dit te verbeteren.
 
-  #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
-</details>
+## **Conclusie**
+Ik ben trots op wat ik heb neergezet. Door een ander pad te kiezen dan mijn medestudenten heb ik mezelf uitgedaagd en mijn vaardigheden verbeterd. De kennis die ik heb opgedaan met CSS-animaties zal zeker van pas komen in toekomstige projecten. Dit project heeft me laten zien hoe belangrijk het is om uitdagingen aan te gaan en buiten je comfortzone te stappen.
 
-
-
-## Toegankelijkheidstest 1/2 (week 1)
-
-<details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-
-</details>
-
-
-
-## Breakdownschets (week 1)
-
-<details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
-
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
-</details>
-
-
-
-
-
-## Voortgang 1 (week 2)
-
-<details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
-</details>
-
-
-
-
-
-## Voortgang 2 (week 3)
-
-<details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
-</details>
-
-
-
-
-
-## Toegankelijkheidstest 2/2 (week 4)
-
-<details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
-</details>
-
-
-
-
-
-## Voortgang 3 (week 4)
-
-<details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
-</details>
-
-
-
-
-
-## Eindgesprek (week 5)
-
-<details>
-  <summary>uitwerken voor eindgesprek</summary>
-
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
-
-  ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
-
-  ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
-
-
-
-
-
-## Bronnenlijst
-
-<details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
-
+In de toekomst wil ik me verder verdiepen in het combineren van CSS-animaties met JavaScript voor nog geavanceerdere interacties. Daarnaast wil ik meer aandacht besteden aan toegankelijkheid, zodat mijn websites voor iedereen bruikbaar en inclusief zijn. Dit project heeft me niet alleen nieuwe vaardigheden opgeleverd, maar ook een boost gegeven om verder te experimenteren en te groeien als frontend developer.
 </details>
