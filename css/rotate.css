@@ -26,13 +26,13 @@
     --left: 0px;
     background:
         var(--url) var(--left),
-        url(../images/mockup.png) 0 0;
+        url(./images/mockup.png) 0 0;
     background-size: auto 100%;
     width: 280px;
     aspect-ratio: 2 / 4;
     background-blend-mode: multiply;
     transition: 0.8s;
-    mask-image: url(../images/mockup.png);
+    mask-image: url(./images/mockup.png);
     mask-size: auto 100%;
 }
 
