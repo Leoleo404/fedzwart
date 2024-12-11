@@ -16,7 +16,9 @@ Zwart
  
 </details>
 
-<details open> # **Reflectie Frontend Development Opdracht**
+<details open> 
+
+# **Reflectie Frontend Development Opdracht**
 ## **Inleiding**
 Voor mijn frontend development opdracht heb ik ervoor gekozen om een unieke benadering te volgen in plaats van de standaardopdracht van mijn medestudenten. Ik heb een website ontwikkeld waarin ik uitgebreid gebruik heb gemaakt van nieuwe CSS-animatietechnieken. Dit project bood me de kans om mijn vaardigheden uit te breiden en mezelf uit te dagen met technieken die ik nog nooit eerder had toegepast.
 
