@@ -1,0 +1,114 @@
+/* ========================= */
+/*       ROOT VARIABLES      */
+/* ========================= */
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --font-family-alt: "Odibee Sans", sans-serif;
+    --background-color: #fff;
+    --background-image: repeating-linear-gradient(to right, transparent 0 100px, #5d65a722 100px 101px),
+        repeating-linear-gradient(to bottom, transparent 0 100px, #5d65a722 100px 101px);
+    --text-color: #2E373A;
+    --nav-background: #333;
+    --nav-hover-background: #444;
+    --border-color: #2E373A55;
+    --transition-duration: 1s;
+    --transition-ease: ease-in-out;
+    --main-width: min(1400px, 100vw);
+    --padding: 20px;
+    --hamburger-font-size: 30px;
+    --nav-link-padding: 15px 20px;
+    --nav-link-font-size: 24px;
+    --banner-height: 600px;
+    --grid-gap: 50px;
+    --grid-row: 2;
+    --grid-font-size: 1.7em;
+    --footer-min-height: 100vh;
+}
+
+/* ========================= */
+/*      GLOBAL STYLES       */
+/* ========================= */
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+    background-image: var(--background-image);
+    opacity: 0;
+    transition: opacity var(--transition-duration) var(--transition-ease);
+    margin: 0;
+    font-size: 14px;
+    color: var(--text-color);
+    font-family: "Libre Baskerville", sans-serif;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+main {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    /* Evenly space the columns */
+    width: 80%;
+    /* Adjust width as needed */
+    overflow-y: hidden;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    /* Stack images vertically */
+    align-items: center;
+    /* Center images in the column */
+}
+
+img {
+    width: 300px;
+    /* Set a fixed width for the images */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 15px;
+    /* Rounded corners */
+    margin: 10px 0;
+    /* Space between images */
+}
+
+/* Shift entire column up, but not so much that it goes out of view */
+.column-reverse {
+    transform: translateY(calc(-100% + 100vh));
+}
+
+
+/* Flip item order in reversed columns */
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Set up Animation */
+@keyframes adjust-position {
+
+    /* Start position: shift entire column up, but not so that it goes out of view */
+    from {
+        transform: translateY(calc(100vh - 100%));
+    }
+
+    /* End position: shift entire column down, but not so that it goes out of view */
+    to {
+        transform: translateY(calc(100% - 100vh));
+    }
+}
+
+/* Hook our animation with the timeline to our columns */
+.column-reverse {
+    animation: adjust-position linear forwards;
+    animation-timeline: scroll(root block);
+}

@@ -1,0 +1,113 @@
+/* ========================= */
+/*      FONT FACE           */
+/* ========================= */
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/font/futura.woff2') format('woff2'), url('/font/Arial.woff2') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Futura';
+}
+
+.vertical-section {
+    height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #ccc;
+    /* Optional border */
+}
+
+.vertical-section p {
+    width: 50%;
+    text-align: center;
+}
+
+#sectionPin {
+    height: 500vh;
+    /* Create enough height for vertical scrolling */
+    overflow: visible;
+    /* Make position sticky work */
+    view-timeline-name: --section-pin-tl;
+    /* Name the view timeline */
+    view-timeline-axis: block;
+    /* Set the axis for the timeline */
+}
+
+.pin-wrap-sticky {
+    height: 100vh;
+    /* Full viewport height */
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    overflow-x: hidden;
+    /* Prevent vertical scrolling */
+}
+
+.pin-wrap {
+    height: 100vh;
+    /* Full height of the container */
+    width: 500vw;
+    /* Width based on the number of items */
+    display: flex;
+    /* Use flexbox for horizontal layout */
+    will-change: transform;
+    /* Optimize for performance */
+    animation: move 1s linear forwards;
+    /* Animate the movement */
+    animation-timeline: --section-pin-tl;
+    /* Link animation to view-timeline */
+    animation-range: contain 0% contain 100%;
+    /* Control the animation range */
+}
+
+@keyframes move {
+    to {
+        transform: translateX(calc(-100% + 100vw));
+        /* Move horizontally */
+    }
+}
+
+.scroll-item {
+    min-width: 100vw;
+    /* Each item takes full viewport width */
+    height: 100%;
+    /* Full height of the container */
+    display: flex;
+    /* Center content */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    font-size: 2em;
+    /* Increase font size for visibility */
+    background-color: #d0d0d0;
+    /* Light background color */
+    border-right: 1px solid #ccc;
+    /* Optional: border between items */
+}
+
+.scroll-item p {
+    text-align: center;
+    font-size: 0.6em;
+    width: 40%;
+}
+
+.scroll-item:nth-child(even) {
+    background-color: #e0e0e0;
+    /* Alternating background color */
+}

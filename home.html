@@ -4,177 +4,175 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="sponsor.css">
-  <link rel="stylesheet" href="rotate.css">
+  <title>Light & Shadow museum</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/sponsor.css">
+  <link rel="stylesheet" href="./css/rotate.css">
 </head>
 
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <header>
-    <nav class="navbar">
-      <div id="hamburger" class="hamburger">☰</div>
+    <nav class="navbar stroke">
+      <span id="hamburger" class="hamburger" aria-label="Open navigation menu">☰</span>
       <ul id="nav-links" class="nav-links">
-        <li><button id="close-btn" class="close-btn">✖</button></li>
         <li><a href="home.html">Home</a></li>
         <li><a href="photography.html">Photography</a></li>
         <li><a href="exhibition.html">Exhibition</a></li>
         <li><a href="tryout.html">About</a></li>
       </ul>
+      <button id="close-btn" class="close-btn" aria-label="Close navigation menu">✖</button>
     </nav>
   </header>
-  <main role="main">
-    <section class="banner" aria-labelledby="banner-title">
-      <div class="content">
-        <h1 id="banner-title" class="left">Light & Shadow</h1>
-        <div class="right">
-          <h2>Museum</h2>
-          <p>London</p>
-          <p>1234AB<br>Upsidedown soda</p>
-        </div>
-        <div class="image" aria-hidden="true">
-        </div>
+  <main id="main-content" role="main">
+    <section class="banner" aria-label="banner-title">
+      <h1>Light & Shadow</h1>
+      <div class="text-container">
+        <h2>Museum</h2>
+        <p>London</p>
+        <p>1234AB<br>Upsidedown soda</p>
       </div>
+      <img class="image" src="../images/banner.png" alt="silky background">
     </section>
 
     <div class="slider" style="--width: 100px; --height: 50px; --quantity: 9;">
       <div class="list">
-        <div class="item" style="--position: 1"><img src="images/slider1_1.png" alt="Slider Image 1"></div>
-        <div class="item" style="--position: 2"><img src="images/slider1_2.png" alt="Slider Image 2"></div>
-        <div class="item" style="--position: 3"><img src="images/slider1_3.png" alt="Slider Image 3"></div>
-        <div class="item" style="--position: 4"><img src="images/slider1_4.png" alt="Slider Image 4"></div>
-        <div class="item" style="--position: 5"><img src="images/slider1_5.png" alt="Slider Image 5"></div>
-        <div class="item" style="--position: 6"><img src="images/slider1_6.png" alt="Slider Image 6"></div>
-        <div class="item" style="--position: 7"><img src="images/slider1_7.png" alt="Slider Image 7"></div>
-        <div class="item" style="--position: 8"><img src="images/slider1_8.png" alt="Slider Image 8"></div>
-        <div class="item" style="--position: 9"><img src="images/slider1_9.png" alt="Slider Image 9"></div>
+        <div class="item" style="--position: 1"><img src="../images/sponsor0.png" alt="Ing bank logo"></div>
+        <div class="item" style="--position: 2"><img src="../images/sponsor1.png" alt="Heineken beer logo"></div>
+        <div class="item" style="--position: 3"><img src="../images/sponsor2.png" alt="Tomtom navigation systems logo">
+        </div>
+        <div class="item" style="--position: 4"><img src="../images/sponsor3.png" alt="Randstad employment agency logo">
+        </div>
+        <div class="item" style="--position: 5"><img src="../images/sponsor4.png" alt="Odido phone provider logo"></div>
+        <div class="item" style="--position: 6"><img src="../images/sponsor5.png" alt="Golden Tulip hotels logo"></div>
+        <div class="item" style="--position: 7"><img src="../images/sponsor6.png" alt="Arriva public transport logo">
+        </div>
+        <div class="item" style="--position: 8"><img src="../images/sponsor7.png" alt="Action non-food discounter logo">
+        </div>
+        <div class="item" style="--position: 9"><img src="../images/sponsor8.png"
+            alt="Booking.com online travel agency logo"></div>
       </div>
     </div>
 
-    <div class="slider" reverse="true" style="--width: 200px; --height: 200px; --quantity: 9;">
+    <div class="slider" style="--width: 200px; --height: 200px; --quantity: 9;">
       <div class="list">
-        <div class="item" style="--position: 1"><img src="images/slider1_1.png" alt="Slider Image 1"></div>
-        <div class="item" style="--position: 2"><img src="images/slider1_2.png" alt="Slider Image 2"></div>
-        <div class="item" style="--position: 3"><img src="images/slider1_3.png" alt="Slider Image 3"></div>
-        <div class="item" style="--position: 4"><img src="images/slider1_4.png" alt="Slider Image 4"></div>
-        <div class="item" style="--position: 5"><img src="images/slider1_5.png" alt="Slider Image 5"></div>
-        <div class="item" style="--position: 6"><img src="images/slider1_6.png" alt="Slider Image 6"></div>
-        <div class="item" style="--position: 7"><img src="images/slider1_7.png" alt="Slider Image 7"></div>
-        <div class="item" style="--position: 8"><img src="images/slider1_8.png" alt="Slider Image 8"></div>
-        <div class="item" style="--position: 9"><img src="images/slider1_9.png" alt="Slider Image 9"></div>
+        <div class="item" style="--position: 1"><img src="../images/sponsor0.png" alt="Ing bank logo"></div>
+        <div class="item" style="--position: 2"><img src="../images/sponsor1.png" alt="Heineken beer logo"></div>
+        <div class="item" style="--position: 3"><img src="../images/sponsor2.png" alt="Tomtom navigation systems logo">
+        </div>
+        <div class="item" style="--position: 4"><img src="../images/sponsor3.png" alt="Randstad employment agency logo">
+        </div>
+        <div class="item" style="--position: 5"><img src="../images/sponsor4.png" alt="Odido phone provider logo"></div>
+        <div class="item" style="--position: 6"><img src="../images/sponsor5.png" alt="Golden Tulip hotels logo"></div>
+        <div class="item" style="--position: 7"><img src="../images/sponsor6.png" alt="Arriva public transport logo">
+        </div>
+        <div class="item" style="--position: 8"><img src="../images/sponsor7.png" alt="Action non-food discounter logo">
+        </div>
+        <div class="item" style="--position: 9"><img src="../images/sponsor8.png"
+            alt="Booking.com online travel agency logo"></div>
       </div>
     </div>
 
-    <div class="banner">
+    <section class="banner">
       <div class="product">
-        <div class="soda" style="--url: url(images/soda-art.png)" aria-label="Soda Art 1"></div>
-        <div class="soda" style="--url: url(images/soda-art-2.png)" aria-label="Soda Art 2"></div>
+        <div class="soda" style="--url: url(../images/soda-art.png)"
+          aria-label="Beer label for 'Shaddok American IPA' by Alternative Brewery. Tropical theme with a bearded man slicing grapefruit, island sunset, and hummingbirds.">
+        </div>
+        <div class="soda" style="--url: url(../images/soda-art-2.png)"
+          aria-label="Beer label for 'Sotaque Sour Ale' by Alternative Brewery. Features a green-skinned woman with tribal art, fruits, and plants.">
+        </div>
       </div>
       <div class="rock">
-        <img src="images/rock1.png" alt="Rock Image 1">
-        <img src="images/rock2.png" alt="Rock Image 2">
-        <img src="images/rock3.png" alt="Rock Image 3">
+        <img src="../images/rock1.png" alt="">
+        <img src="../images/rock2.png" alt="">
+        <img src="../images/rock3.png" alt="">
       </div>
-    </div>
+    </section>
 
     <section class="grid grid-1">
       <figure>
-        <img src="images/sich.png" alt="Sich Image">
+        <img src="../images/barbedwire.png" alt="barbed wire">
       </figure>
       <figure>
-        <img src="images/3.png" alt="Image 3" class="autoRotate">
+        <img src="../images/abstractspike.png"
+          alt=""
+          class="autoRotate">
       </figure>
-      <h2 class="autoShow">Introduce</h2>
+      <h2 class="autoShow">Introduction</h2>
     </section>
 
     <section class="grid grid-2">
       <div class="autoShow">
         <figure>
-          <img src="images/6.png" alt="Image 6">
+          <img src="../images/barcode.png" alt="">
         </figure>
         <p>
-          When an unknown printer took a galley of type and scrambled it to make a type specimen b <br>
-          only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-          and more recently with desktop like.
+          The Light and Shadow Museum is a captivating destination dedicated to the art and science of illumination and
+          its interplay with darkness. This unique institution celebrates the beauty of contrasts, showcasing how light
+          and shadow shape perception, emotion, and storytelling across cultures and eras. Since its inception, the
+          museum has been a beacon for artists, scientists, and curious minds, inviting them to explore the fascinating
+          dynamics of luminescence and obscurity.
         </p>
       </div>
       <div class="autoShow">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen b <br>
-        ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-        versions of Lorem Ipsum.
+        Within its halls, visitors journey through centuries of innovation, from ancient shadow play performances and
+        the first oil lamps to modern-day projection mapping and immersive light installations. The museum preserves
+        timeless artifacts while embracing cutting-edge technologies, offering a blend of history and futurism.
+
+        Notable exhibitions include displays of traditional shadow puppetry from Asia, explorations of chiaroscuro in
+        Renaissance art, and dynamic exhibits on the physics of light. Special interactive spaces allow visitors to
+        create their own shadow art or manipulate light beams to craft mesmerizing patterns.
       </div>
       <div class="autoShow">
         <figure>
-          <img src="images/2.png" alt="Image 2">
+          <img src="../images/crown.png" alt="">
         </figure>
         <p>
-          When an unknown printer took a galley of type and scrambled it to make a type specimen b <br>
-          only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          The Light and Shadow Museum also hosts workshops, lectures, and night-time events, creating a vibrant
+          community for enthusiasts of all ages. As both a testament to the power of contrast and a source of endless
+          inspiration, the museum continues to shine brightly as a cultural and educational landmark.
         </p>
       </div>
       <div class="autoShow">
         <figure>
-          <img src="images/candy.png" alt=" Candy Image">
+          <img src="../images/candy.png" alt="">
         </figure>
       </div>
     </section>
 
     <section class="grid grid-3">
-      <a href="photography.html" class="autoBLur">Photography</a>
-      <a href="exhibition.html" class="autoBLur">Exhibition</a>
-      <a href="try.html" class="autoBLur">About &#8599;</a>
+      <h2>More</h2>
+      <a href="photography.html" class="autoBLur"
+        aria-label="See more about the museum on the Exhibition page">Photography</a>
+      <a href="exhibition.html" class="autoBLur"
+        aria-label="See more about the museum on the Exhibition page">Exhibition</a>
+      <a href="about.html" class="autoBLur" aria-label="Learn more about the museum on the About page">About
+        &#8599;</a>
     </section>
   </main>
 
   <footer role="contentinfo">
     <div class="grid grid-5 content">
-      <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero labore numquam explicabo itaque qui,
-        assumenda temporibus aspernatur ex quae corrupti, ipsa quod esse hic debitis quidem obcaecati aperiam!
-        Incidunt blanditiis facilis a et provident vel aspernatur deleniti sint debitis numquam ducimus
-        recusandae assumenda eligendi explicabo id unde quasi dicta ut cumque, tempore accusamus ipsa similique
-        repellat. Deserunt delectus sint debitis ad sequi laboriosam inventore consequatur nemo neque cum est nostrum
-        eveniet aliquid unde distinctio, omnis sed vitae amet nobis atque.</div>
-      <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero labore numquam explicabo itaque qui,
-        assumenda temporibus aspernatur ex quae corrupti, ipsa quod esse hic debitis quidem obcaecati aperiam!
-        Incidunt blanditiis facilis a et provident vel aspernatur deleniti sint debitis numquam ducimus
-        recusandae assumenda eligendi explicabo id unde quasi dicta ut cumque, tempore accusamus ipsa similique
-        repellat. Deserunt delectus sint debitis ad sequi laboriosam inventore consequatur nemo neque cum est
-        nostrum eveniet aliquid unde distinctio, omnis sed vitae amet nobis atque.</div>
-      <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero labore numquam explicabo itaque qui,
-        assumenda temporibus aspernatur ex quae corrupti, ipsa quod esse hic debitis quidem obcaecati aperiam!
-        Incidunt blanditiis facilis a et provident vel aspernatur deleniti sint debitis numquam ducimus
-        recusandae assumenda eligendi explicabo id unde quasi dicta ut cumque, tempore accusamus ipsa similique
-        repellat. Deserunt delectus sint debitis ad sequi laboriosam inventore consequatur nemo neque cum est
-        nostrum eveniet aliquid unde distinctio, omnis sed vitae amet nobis atque.</div>
+      <div>The Light and Shadow Museum stands as a testament to the beauty of illumination and the mysteries of
+        darkness. Through art, history, and technology, it invites visitors to immerse themselves in the timeless
+        interplay of light and shadow, uncovering stories that span cultures and centuries. From ancient shadow puppetry
+        to cutting-edge projection art, the museum offers an unparalleled journey through the evolution of luminescence.
+      </div>
+      <div>The museum’s exhibits inspire creativity and curiosity, featuring interactive installations, rare artifacts,
+        and workshops that engage visitors of all ages. Each corner of the museum reveals how light shapes our
+        perception, highlights our emotions, and brings the world to life.</div>
+      <div>Whether exploring the science of light or admiring the artistry of shadow play, guests leave with a renewed
+        appreciation for the contrasts that define our world. The Light and Shadow Museum is not just a destination—it's
+        an experience that continues to resonate long after the visit ends.</div>
       <div>
         <figure>
-          <img src="images/8.png" alt="Image 8">
+          <img src="../images/barbedwire2.png" alt="">
         </figure>
       </div>
     </div>
   </footer>
-  <script>
-    window.addEventListener('load', () => {
-      document.body.classList.add('loaded');
-    });
-  </script>
-  <script>
-    document.getElementById('hamburger').addEventListener('click', function () {
-      var navLinks = document.getElementById('nav-links');
-      navLinks.classList.toggle('active'); // Toggle the 'active' class to slide in/out
-    });
-
-    // Close button functionality
-    document.getElementById('close-btn').addEventListener('click', function () {
-      var navLinks = document.getElementById('nav-links');
-      navLinks.classList.remove('active'); // Remove the 'active' class to slide out
-    });
-  </script>
+  <script src="../js/loaded.js"></script>
+  <script src="../js/navigation.js"></script>
 </body>
 
 </html>
