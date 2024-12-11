@@ -2,27 +2,38 @@
 /*       ROOT VARIABLES      */
 /* ========================= */
 :root {
-    --font-family: 'Poppins', sans-serif;
-    --font-family-alt: "Odibee Sans", sans-serif;
+    --font-family: 'Futura', sans-serif;
+    --font-family-alt: 'arial', sans-serif;
+    --font-size: 14px;
     --background-color: #fff;
     --background-image: repeating-linear-gradient(to right, transparent 0 100px, #5d65a722 100px 101px),
         repeating-linear-gradient(to bottom, transparent 0 100px, #5d65a722 100px 101px);
-    --text-color: #2E373A;
-    --nav-background: #333;
-    --nav-hover-background: #444;
-    --border-color: #2E373A55;
-    --transition-duration: 1s;
-    --transition-ease: ease-in-out;
-    --main-width: min(1400px, 100vw);
-    --padding: 20px;
-    --hamburger-font-size: 30px;
-    --nav-link-padding: 15px 20px;
-    --nav-link-font-size: 24px;
     --banner-height: 600px;
+    --border-color: #2E373A55;
+    --footer-min-height: 100vh;
+    --grid-font-size: 1.7em;
     --grid-gap: 50px;
     --grid-row: 2;
-    --grid-font-size: 1.7em;
-    --footer-min-height: 100vh;
+    --hamburger-font-size: 30px;
+    --main-width: min(1400px, 100vw);
+    --nav-background: #333;
+    --nav-hover-background: #444;
+    --nav-link-font-size: 24px;
+    --nav-link-padding: 15px 20px;
+    --padding: 20px;
+    --text-color: #2E373A;
+    --transition-duration: 1s;
+    --transition-ease: ease-in-out;
+}
+
+/* ========================= */
+/*      FONT FACE           */
+/* ========================= */
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./font/futura.woff2') format('woff2'), url('./font/Arial.woff2') format('woff2');
 }
 
 /* ========================= */
@@ -41,7 +52,6 @@ body {
     margin: 0;
     font-size: 14px;
     color: var(--text-color);
-    font-family: "Libre Baskerville", sans-serif;
 }
 
 body.loaded {
