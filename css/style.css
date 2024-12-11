@@ -33,7 +33,7 @@
     font-family: 'Futura';
     font-style: normal;
     font-weight: normal;
-    src: url('./font/futura.woff2') format('woff2'), url('./font/Arial.woff2') format('woff');
+    src: url('./font/futura.woff2') format('woff2'), url('./font/Arial.woff2') format('woff2');
 }
 
 /* ========================= */
